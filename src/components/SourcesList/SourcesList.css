@@ -1,0 +1,20 @@
+.news-app__sources-list {
+  border-radius: 8px;
+  text-align: left;
+}
+
+.news-app__sources-list-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-app__sources-list h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.news-app__sources__selected-sources {
+  margin-bottom: 16px;
+}

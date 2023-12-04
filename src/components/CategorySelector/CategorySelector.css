@@ -1,0 +1,16 @@
+.news-app__categories-overflow {
+  width: 100%;
+  overflow: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+.news-app__categories-overflow .ant-radio-group {
+  display: flex;
+}
+
+@media all and (max-width: 600px) {
+  .news-app__categories-overflow {
+    justify-content: flex-start;
+  }
+}

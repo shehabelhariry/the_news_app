@@ -1,38 +1,73 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@400;600&family=Figtree:wght@300;400;600;800&family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
+
+.news-app__nav {
+  background: #041f4a;
+}
+
+.news-app__nav h1 {
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  margin: 0;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.news-app__layout {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.news-app__card__img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.news-app__cards-container .ant-col {
+  margin-bottom: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.news-app__search-container {
+  max-width: 400px;
+  margin: 16px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.news-app__card .ant-card-meta-title {
+  white-space: wrap !important;
+  overflow: visible;
+}
+
+.news-app__card {
+  text-align: left;
+}
+
+.news-app__search-section__label {
+  font-weight: 600;
+  margin-right: 8px;
+}
+.news-app__search-section__category-select {
+  margin-right: 8px;
+  max-width: 300px;
+}
+
+.news-app__search-section__date-select {
+  margin-right: 8px;
+}
+
+.drawer-container h4 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.drawer-container__section {
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.drawer-container__section__title {
+  margin-bottom: 5px;
+}
+
+.news-app__search {
+  margin-left: 24px;
+  flex: 1;
 }
